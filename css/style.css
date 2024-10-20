@@ -1,0 +1,1234 @@
+@import url("https://use.typekit.net/qje4aty.css");
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 30rem;
+  padding: 2rem 1rem;
+}
+
+body {
+  margin: 0;
+  background-color: #fff;
+}
+
+.nav {
+  height: 50px;
+  width: 100%;
+  position: relative;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .logo {
+  display: inline-block;
+  font-size: 22px;
+  color: #ffffff;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #363636;
+}
+
+.nav > .nav-links > a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav > #nav-check {
+  display: none;
+}
+
+------------------------------------ header {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+  width: 2rem;
+}
+
+.hamburger-menu img {
+  width: 1.8rem;
+}
+
+/* Hero Section */
+.hero h1 {
+  font-family: "roboto-slab", serif;
+  font-weight: 700;
+  line-height: 1;
+  font-size: 4rem;
+  color: #011723;
+  text-align: left;
+  margin: 0;
+}
+
+.hero h3 {
+  font-family: "nunito", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  font-size: 0.8rem;
+  color: #6B6B6B;
+  text-align: left;
+}
+
+.hero p {
+  font-family: "nunito", sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+  font-size: 0.8rem;
+  color: #6B6B6B;
+  text-align: left;
+  color: #011723;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero input {
+  font-family: "nunito", sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+  font-size: 1rem;
+  color: #6B6B6B;
+  text-align: left;
+}
+
+.search-bar {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+input[type=text] {
+  width: 70%;
+  padding: 1.2rem 1rem;
+  border: 1px solid #6B6B6B;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+}
+
+.search-button {
+  background-color: #0061BD;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.hero img {
+  width: 100%;
+  max-height: 390px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* Club Logos Section */
+.clubs h4 {
+  font-family: "nunito", sans-serif;
+  font-weight: 500;
+  line-height: 1;
+  font-size: 1rem;
+  color: #011723;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.heart-icon {
+  width: 1.5rem;
+  margin-right: 1rem;
+}
+
+.clubs ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  background-color: white;
+  list-style-type: none;
+  margin: 0;
+}
+
+.clubs li img {
+  width: 80px;
+}
+
+/* Featured Wrecks Section */
+.featured-wrecks {
+  background-image: url("../images/background_2section_main.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 2rem 1rem;
+  background-color: #003e5f;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.featured-wrecks h2 {
+  font-family: "roboto-slab", serif;
+  font-weight: 700;
+  line-height: 1;
+  font-size: 1.5rem;
+  color: #eef1fb;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.featured-wrecks p {
+  font-family: "nunito", sans-serif;
+  font-weight: 400;
+  line-height: 1.25;
+  font-size: 1rem;
+  color: #E4E9FB;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.featured-wrecks button {
+  padding: 0.5rem 1.5rem;
+  background-color: #ffd700;
+  border: none;
+  border-radius: 0.5rem;
+  font-family: "nunito", sans-serif;
+  font-weight: 600;
+  line-height: 1.25;
+  font-size: 1rem;
+  color: #011723;
+  text-align: center;
+  margin-bottom: 3rem;
+  cursor: pointer;
+}
+
+.wreck-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem 2rem;
+}
+.wreck-grid .wreck-item {
+  background-color: #fff;
+}
+
+.wreck-item img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.wreck-item h3 {
+  font-family: "nunito", sans-serif;
+  font-weight: 500;
+  line-height: 1.25;
+  font-size: 1.3rem;
+  color: #011723;
+  text-align: left;
+  margin: 0.8rem 1rem 0rem 1rem;
+}
+
+.wreck-item p {
+  font-family: "nunito", sans-serif;
+  font-weight: 500;
+  line-height: 1.25;
+  font-size: 1rem;
+  color: #6B6B6B;
+  text-align: left;
+  margin: 0.5rem 1rem 1rem 1rem;
+}
+
+/* Wreck Info Section */
+.image-diver {
+  width: 100%;
+  height: 390px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-image: url("../images/background_3section_main.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #000;
+}
+
+.wreck-info {
+  padding: 2rem 0rem;
+  background-color: #000;
+}
+
+.wreck-info h2 {
+  font-family: "roboto-slab", serif;
+  font-weight: 500;
+  line-height: 1.25;
+  font-size: 1.3rem;
+  color: #EEF1FB;
+  text-align: left;
+}
+
+.wreck-info p {
+  font-family: "nunito", sans-serif;
+  font-weight: 500;
+  line-height: 1.3;
+  font-size: 0.87rem;
+  color: #E4E9FB;
+  text-align: left;
+}
+
+/* Dive Sites Section */
+.dive-sites {
+  padding: 1rem 0rem;
+  text-align: center;
+  background-color: #032A48;
+}
+
+.dive-sites h2 {
+  font-family: "roboto-slab", serif;
+  font-weight: 500;
+  line-height: 1.25;
+  font-size: 1.3rem;
+  color: #EEF1FB;
+  text-align: center;
+}
+
+.dive-sites a, p {
+  font-family: "nunito", sans-serif;
+  font-weight: 500;
+  line-height: 1.3;
+  font-size: 0.87rem;
+  color: #E4E9FB;
+  text-align: center;
+}
+
+.dive-sites img {
+  width: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.dive-sites a:hover {
+  color: #FAE108;
+}
+
+/* Footer */
+footer {
+  padding: 2rem 1rem;
+  text-align: left;
+  width: 100%;
+  height: 390px;
+  background-image: url("../images/background_footer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h2 {
+  font-family: "roboto-slab", serif;
+  font-weight: 600;
+  line-height: 1.3;
+  font-size: 2rem;
+  color: #E4E9FB;
+  text-align: left;
+}
+
+.email-signup {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.email-signup input {
+  font-family: "nunito", sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+  font-size: 1rem;
+  text-align: left;
+  padding: 0.9rem;
+  margin-right: 0.5rem;
+  border: 1px #B8B8B8 solid;
+  border-radius: 0.5rem;
+  width: 70%;
+  background-color: transparent;
+}
+
+.email-signup button {
+  background-color: #FAE108;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.copyrights p, a, ul, li {
+  font-family: "nunito", sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+  font-size: 1rem;
+  color: #B8B8B8;
+  text-align: left;
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+}
+
+.copyrights ul {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 0;
+  gap: 3rem;
+}
+
+.social-icons li {
+  list-style: none;
+  margin: 0;
+}
+
+.social-icons li img {
+  width: 24px;
+}
+
+/* --------------------------
+		Diving Page
+-------------------------- */
+.video-background {
+  height: 35vh;
+}
+
+.video-background iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.email-form {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+
+.email-form h3 {
+  font-family: "nunito", sans-serif;
+  font-weight: 700;
+  line-height: 1.3;
+  font-size: 0.8rem;
+  color: #0061BD;
+  text-align: center;
+}
+
+.email-form h2 {
+  font-family: "roboto-slab", serif;
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 1.5rem;
+  color: #011723;
+  text-align: center;
+  margin: 0 0 2rem 0;
+}
+
+.email-signup-blue {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.email-signup-blue input {
+  font-family: "nunito", sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+  font-size: 1rem;
+  text-align: left;
+  padding: 0.9rem;
+  margin-right: 0.5rem;
+  border: 1px #B8B8B8 solid;
+  border-radius: 0.5rem;
+  width: 100%;
+  background-color: transparent;
+}
+
+.email-signup-blue button {
+  background-color: #0061BD;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+/* Featured Wrecks Section */
+.featured-wrecks-diving {
+  background-color: #EEF3F4;
+  padding: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.featured-wrecks-diving h2 {
+  font-family: "roboto-slab", serif;
+  font-weight: 600;
+  line-height: 1;
+  font-size: 1.5rem;
+  color: #011723;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.featured-wrecks-diving p {
+  font-family: "nunito", sans-serif;
+  font-weight: 400;
+  line-height: 1.25;
+  font-size: 0.8rem;
+  color: #011723;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.featured-wrecks button {
+  padding: 0.5rem 1.5rem;
+  background-color: #ffd700;
+  border: none;
+  border-radius: 0.5rem;
+  font-family: "nunito", sans-serif;
+  font-weight: 600;
+  line-height: 1.25;
+  font-size: 1rem;
+  color: #011723;
+  text-align: center;
+  margin-bottom: 3rem;
+  cursor: pointer;
+}
+
+.wreck-grid-diving {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem 2rem;
+}
+.wreck-grid-diving .wreck-item {
+  background-color: transparent;
+}
+
+.wreck-item-diving img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.wreck-item-diving h3 {
+  font-family: "nunito", sans-serif;
+  font-weight: 500;
+  line-height: 1.25;
+  font-size: 1.3rem;
+  color: #011723;
+  text-align: left;
+  margin: 0.8rem 0rem 0.8rem 0rem;
+}
+
+.wreck-item-diving p {
+  font-family: "nunito", sans-serif;
+  font-weight: 500;
+  line-height: 1.25;
+  font-size: 1rem;
+  color: #6B6B6B;
+  text-align: left;
+  margin: 0;
+}
+
+/* --------------------------
+		Contact Page
+-------------------------- */
+.contact-section {
+  padding: 4rem;
+  text-align: center;
+  background-color: #000105;
+}
+
+.contact-container h1 {
+  font-size: 3rem;
+  color: white;
+  margin: 0;
+}
+
+.contact-container h1 span {
+  color: #ffcc00;
+}
+
+.contact-container p {
+  font-size: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contact-form input[type=text],
+.contact-form input[type=email],
+.contact-form textarea {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid #444;
+  background-color: #222;
+  color: white;
+}
+
+.contact-form button {
+  padding: 15px;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 100%;
+}
+
+.contact-form button:hover {
+  background-color: #e6b800;
+}
+
+/* --------------------------
+		Search Page
+-------------------------- */
+.search-filters {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+.filter-options {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.filter-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.content-grid {
+  display: flex;
+  gap: 2rem;
+}
+
+.wreck-list-search {
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.wreck-item-search img {
+  max-width: 22rem;
+  height: auto;
+  margin: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.black {
+  background-color: #011723;
+}
+
+.wreck-item-search {
+  padding: 1rem;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.wreck-details h3, .wreck-list-search h3 {
+  font-family: "nunito", sans-serif;
+  font-weight: 500;
+  line-height: 1.25;
+  font-size: 0.9rem;
+  color: #6B6B6B;
+  text-align: left;
+}
+
+.wreck-details h2 {
+  font-family: "nunito", sans-serif;
+  font-weight: 600;
+  line-height: 1.25;
+  font-size: 1.3rem;
+  color: #011723;
+  text-align: left;
+}
+
+.wreck-details p {
+  font-family: "nunito", sans-serif;
+  font-weight: 500;
+  line-height: 1.25;
+  font-size: 1rem;
+  color: #6B6B6B;
+  text-align: left;
+}
+
+.map-section {
+  width: 40%;
+}
+
+.map-section img {
+  width: 100%;
+}
+
+.map-mobile {
+  display: none;
+}
+
+/* --------------------------
+		About Page
+-------------------------- */
+.about {
+  padding: 2rem 1rem;
+}
+
+.left h3 {
+  font-family: "nunito", sans-serif;
+  font-weight: 500;
+  line-height: 1.25;
+  font-size: 0.9rem;
+  color: #6B6B6B;
+  text-align: left;
+}
+
+.left h2 {
+  font-family: "nunito", sans-serif;
+  font-weight: 600;
+  line-height: 1.25;
+  font-size: 1.3rem;
+  color: #011723;
+  text-align: left;
+}
+
+.left p {
+  font-family: "nunito", sans-serif;
+  font-weight: 500;
+  line-height: 1.25;
+  font-size: 1rem;
+  color: #6B6B6B;
+  text-align: left;
+}
+
+.right-map {
+  background-image: url("../images/about_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10rem 1rem;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 100%;
+    max-width: 43.75rem;
+  }
+  .mobile {
+    display: none;
+  }
+  .container-noflex {
+    max-width: 30rem;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero img {
+    width: 100%;
+    max-height: 32rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+  }
+  .tablet {
+    display: block;
+  }
+  /* --------------------------
+  		Diving Page 
+  -------------------------- */
+  .video-background {
+    height: 70vh;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .nav {
+    max-width: 80rem;
+    margin: auto;
+  }
+  .container {
+    display: flex;
+    max-width: 75rem;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+    gap: 2rem;
+  }
+  .image-wrapper {
+    width: 50%;
+  }
+  .hero h1 {
+    font-size: 5rem;
+  }
+  .hero p {
+    font-size: 1.3rem;
+  }
+  input[type=text] {
+    width: 80%;
+  }
+  .clubs {
+    max-width: 65rem;
+    margin: 0 auto;
+  }
+  .clubs li img {
+    width: 10rem;
+  }
+  /* Featured Wrecks Section */
+  .featured-wrecks h2 {
+    font-size: 4rem;
+  }
+  .featured-wrecks p {
+    max-width: 52ch;
+    font-size: 1.2rem;
+    color: #E4E9FB;
+    margin-bottom: 2rem;
+  }
+  .featured-wrecks button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+  }
+  .wreck-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem 2rem;
+    max-width: 75rem;
+  }
+  .wreck-item img {
+    width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .wreck-item h3 {
+    font-family: "nunito", sans-serif;
+    font-weight: 500;
+    line-height: 1.25;
+    font-size: 1.3rem;
+    color: #011723;
+    text-align: left;
+    margin: 1rem 1rem 0rem 1rem;
+  }
+  .wreck-item p {
+    font-family: "nunito", sans-serif;
+    font-weight: 500;
+    line-height: 1.25;
+    font-size: 1rem;
+    color: #6B6B6B;
+    text-align: left;
+    margin: 0.5rem 1rem 1rem 1rem;
+  }
+  /*Wreck Info Section*/
+  .info-wrapper {
+    width: 50%;
+  }
+  .wreck-info h2 {
+    font-size: 2rem;
+    max-width: 25ch;
+  }
+  .wreck-info p {
+    font-size: 1.2rem;
+    max-width: 46ch;
+  }
+  /*Dive Sites Section*/
+  .dive-sites {
+    padding: 4rem 0rem;
+  }
+  .dive-sites h2 {
+    font-size: 4rem;
+    margin: 0;
+  }
+  .dive-sites p {
+    font-size: 1.2rem;
+    max-width: 32ch;
+    margin: 1rem auto;
+  }
+  .dive-sites a {
+    font-size: 1.2rem;
+  }
+  .dive-site-content {
+    display: flex;
+    gap: 2rem;
+  }
+  .dive-site-content p {
+    font-size: 1.2rem;
+    max-width: 33ch;
+    margin: 1rem auto;
+    text-align: left;
+  }
+  /* Footer */
+  .container-noflex {
+    max-width: 75rem;
+    margin: auto;
+  }
+  footer {
+    padding: 10rem 1rem;
+    text-align: left;
+    width: 100%;
+    height: auto;
+    background-image: url("../images/background_footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  h2 {
+    font-family: "roboto-slab", serif;
+    font-weight: 600;
+    line-height: 1.3;
+    font-size: 3rem;
+    color: #E4E9FB;
+    text-align: left;
+  }
+  .email-signup {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .email-signup input {
+    width: 35%;
+  }
+  .copyrights p {
+    max-width: 38ch;
+    line-height: 1.5;
+    font-size: 1.2rem;
+  }
+  /* --------------------------
+  		Diving Page
+  -------------------------- */
+  /* hero */
+  .video-background {
+    height: 90vh;
+  }
+  .email-form {
+    display: flex;
+    align-items: center;
+    padding: 4rem;
+  }
+  .email-form h3 {
+    font-size: 1.6rem;
+  }
+  .email-form h2 {
+    line-height: 1.2;
+    font-size: 4rem;
+    margin: 0 0 3rem 0;
+  }
+  .email-signup-blue input {
+    width: 50%;
+  }
+  /* Diving Section */
+  .featured-wrecks-diving {
+    background-color: #EEF3F4;
+    padding: 2rem 0 8rem 0;
+    display: block;
+    margin: auto;
+  }
+  .diving-text {
+    max-width: 75rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+  }
+  .featured-wrecks-diving h2 {
+    font-size: 4rem;
+    text-align: left;
+    margin: 0;
+  }
+  .featured-wrecks-diving p {
+    font-size: 1.2rem;
+    text-align: left;
+    max-width: 45ch;
+    margin: 0;
+  }
+  .wreck-grid-diving {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem 2rem;
+    max-width: 75rem;
+    margin: auto;
+  }
+  .wreck-grid-diving .wreck-item-diving {
+    background-color: transparent;
+  }
+  .wreck-item img {
+    width: 100%;
+    height: 300px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .wreck-item h3 {
+    font-family: "nunito", sans-serif;
+    font-weight: 500;
+    line-height: 1.25;
+    font-size: 1.3rem;
+    color: #011723;
+    text-align: left;
+    margin: 0.8rem 1rem 0rem 1rem;
+  }
+  .wreck-item p {
+    font-family: "nunito", sans-serif;
+    font-weight: 500;
+    line-height: 1.25;
+    font-size: 1rem;
+    color: #6B6B6B;
+    text-align: left;
+    margin: 0.5rem 1rem 1rem 1rem;
+  }
+  /* --------------------------
+  		Contact Page
+  -------------------------- */
+  .contact-section {
+    padding: 4rem;
+    text-align: center;
+    background-color: #000105;
+  }
+  .contact-container h1 {
+    font-size: 3rem;
+    color: white;
+    line-height: 1.3;
+  }
+  .contact-container h1 span {
+    color: #ffcc00;
+  }
+  .contact-container p {
+    font-size: 1rem;
+    line-height: 1.3;
+    max-width: 45ch;
+    text-align: center;
+    margin: 1rem auto;
+  }
+  .contact-form {
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+    gap: 1rem;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .contact-form input[type=text],
+  .contact-form input[type=email],
+  .contact-form textarea {
+    width: 50%;
+  }
+  .contact-form button {
+    width: 50%;
+  }
+  /* --------------------------
+  		Search Page
+  -------------------------- */
+  .search-filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+  }
+  .search-input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+  }
+  .filter-options {
+    display: flex;
+    gap: 0.8rem;
+  }
+  .filter-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+  }
+  .wreck-list-search {
+    max-width: 75rem;
+    margin: auto;
+  }
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .right-map {
+    width: 50%;
+    height: 80vh;
+    background-image: url("../images/map2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .wreck-item-search img {
+    max-width: 22rem;
+    height: auto;
+    margin: 0;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .wreck-item-search {
+    padding: 1rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  .wreck-details h3, .wreck-list-search h3 {
+    font-family: "nunito", sans-serif;
+    font-weight: 500;
+    line-height: 1.25;
+    font-size: 0.9rem;
+    color: #6B6B6B;
+    text-align: left;
+  }
+  .wreck-details h2 {
+    font-family: "nunito", sans-serif;
+    font-weight: 600;
+    line-height: 1.25;
+    font-size: 1.3rem;
+    color: #011723;
+    text-align: left;
+  }
+  .wreck-details p {
+    font-family: "nunito", sans-serif;
+    font-weight: 500;
+    line-height: 1.25;
+    font-size: 1rem;
+    color: #6B6B6B;
+    text-align: left;
+  }
+  .dive-sites img {
+    display: none;
+  }
+  /* --------------------------
+  		About Page
+  -------------------------- */
+  .about {
+    padding: 2rem 1rem;
+    max-width: 75rem;
+    margin: 0 auto;
+  }
+  .flex-about {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+  }
+  .left h3 {
+    font-family: "nunito", sans-serif;
+    font-weight: 600;
+    line-height: 1.25;
+    font-size: 1.2rem;
+    color: #6B6B6B;
+    text-align: left;
+  }
+  .left h2 {
+    font-family: "roboto-slab", serif;
+    font-weight: 700;
+    line-height: 1.25;
+    font-size: 2.5rem;
+    color: #011723;
+    text-align: left;
+  }
+  .left p {
+    font-family: "nunito", sans-serif;
+    font-weight: 500;
+    line-height: 1.25;
+    font-size: 1.2rem;
+    color: #6B6B6B;
+    text-align: left;
+    max-width: 50ch;
+  }
+  .right-map {
+    background-image: url("../images/about_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: auto;
+  }
+}
+@media (max-width: 600px) {
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover, .nav #nav-check:checked ~ .nav-btn > label {
+    background-color: rgb(240, 231, 231);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #363636;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+    color: #011723;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+}
